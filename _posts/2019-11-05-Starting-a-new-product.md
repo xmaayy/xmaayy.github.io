@@ -2,8 +2,9 @@
 layout: post
 title:  "Hopping in on an idea"
 author: Xander
-categories: [ Jekyll, tutorial ]
+categories: [ fluff ]
 image: assets/images/chat.jpg
+comments: false
 ---
 Sometimes you have good ideas. Sometimes you don't. Sometimes you wish you had good ideas, but for no reason other than your brain is permanently on pause you may never get struck with that lightning bolt of inspiration. I've been in that state for the better part of 5 years, watching others use their worldly knowledge to come up with things so creative, you wonder if they're really more artist than engineer. Its because of this I decided to join a small team of friends on a project that I think is, if not artistically creative, rather interesting.
 
