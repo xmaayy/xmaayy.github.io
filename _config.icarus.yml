@@ -3,7 +3,7 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.png
+logo: /img/logo.jpg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -225,7 +225,7 @@ widgets:
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
@@ -269,8 +269,6 @@ widgets:
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
-    # Enable page startup animations
-    animejs: false
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:

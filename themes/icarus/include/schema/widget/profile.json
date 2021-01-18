@@ -41,7 +41,7 @@
         "avatar_rounded": {
             "type": "boolean",
             "description": "Whether show the rounded avatar image",
-            "default": false,
+            "default": true,
             "nullable": true
         },
         "gravatar": {
