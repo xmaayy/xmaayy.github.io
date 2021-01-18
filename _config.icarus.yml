@@ -271,8 +271,6 @@ widgets:
 plugins:
     # Enable page startup animations
     animejs: false
-    # Show the "back to top" button
-    back_to_top: true
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
@@ -293,17 +291,9 @@ plugins:
     google_analytics:
         # Google Analytics tracking ID
         tracking_id: 
-    # Hotjar user feedback plugin
-    # https://www.hotjar.com/
-    hotjar:
-        # Hotjar site id
-        site_id: 2199818
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: true
-    # Enable the MathJax math typesetting support
-    # https://www.mathjax.org/
-    mathjax: false
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
     outdated_browser: false
@@ -318,3 +308,4 @@ providers:
     fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: fontawesome
+
