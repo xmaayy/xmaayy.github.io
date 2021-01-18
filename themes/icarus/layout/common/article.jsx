@@ -1,7 +1,6 @@
 const moment = require('moment');
 const { Component, Fragment } = require('inferno');
 const Share = require('./share');
-const Donates = require('./donates');
 const Comment = require('./comment');
 const ArticleLicensing = require('hexo-component-inferno/lib/view/misc/article_licensing');
 
@@ -101,8 +100,6 @@ module.exports = class extends Component {
                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
                 </article>
             </div>
-            {/* Donate button */}
-            {!index ? <Donates config={config} helper={helper} /> : null}
             {/* Post navigation */}
             {!index && (page.prev || page.next) ? <nav class="post-navigation mt-4 level is-mobile">
                 {page.prev ? <div class="level-start">

@@ -17,7 +17,8 @@
         if ($('.justified-gallery > p > .gallery-item').length) {
             $('.justified-gallery > p > .gallery-item').unwrap();
         }
-        $('.justified-gallery').justifiedGallery();
+        /* MODIFY IMAGE GALLERY OPTIONS HERE!!! */
+        $('.justified-gallery').justifiedGallery({lastRow:"center"});
     }
 
     if (typeof moment === 'function') {
