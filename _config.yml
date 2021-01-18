@@ -63,3 +63,16 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+asset_pipeline:
+  revisioning:
+    enable: true
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
+webpack:
+    entry: 'themes/icarus/source/js/main.js'
