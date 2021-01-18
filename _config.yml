@@ -5,7 +5,7 @@ keywords: null
 author: Xander May
 language: en
 timezone: 'EST'
-url: 'http://example.com'
+url: 'http://whoelsebut.me'
 root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
@@ -29,7 +29,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -63,12 +63,3 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
-math:
-  engine: katex
-  katex:
-    css: https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css
-    js: https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js
-    config:
-      # KaTeX config
-      throwOnError: false
-      errorColor: "#cc0000"
