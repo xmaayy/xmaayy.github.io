@@ -13,5 +13,6 @@ export default {
     script: [
       { "data-domain": "whoelsebut.me", src: "https://plausible.io/js/plausible.js", defer: true}
     ]
-  }
+  },
+  target: 'static'
 }
