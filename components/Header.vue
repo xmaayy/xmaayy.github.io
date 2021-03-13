@@ -12,14 +12,10 @@
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline md:items-center">
-              <button href="#" class="btn"><homeicon></homeicon></button>
-              <button href="#" class="btn">Projects</button>
-              <button href="#" class="btn">
-                <cameraicon></cameraicon>
-                Photos
-              </button>
-              <button href="#" class="btn">Personal Development</button>
-              <button href="#" class="btn">About Me</button>
+              <button href="#" class="btn"><homeicon /></button>
+              <button href="#" class="btn"><projecticon />Projects</button>
+              <button href="#" class="btn"><cameraicon />Photos</button>
+              <button href="#" class="btn"><meicon />About Me</button>
             </div>
           </div>
         </div>
@@ -31,10 +27,14 @@
 <script>
 import CameraIcon from "../components/CameraIcon";
 import HomeIcon from "../components/HomeIcon";
+import ProjectIcon from "../components/ProjectIcon";
+import MeIcon from "../components/MeIcon";
 export default {
   components: {
     cameraicon: CameraIcon,
-    homeicon: HomeIcon
+    homeicon: HomeIcon,
+    projecticon: ProjectIcon,
+    meicon: MeIcon,
   },
 };
 </script>
