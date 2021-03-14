@@ -1,18 +1,19 @@
 <template>
   <nav class="bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
+      <div class="flex items-center justify-center h-16">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <img
-              class="h-8 w-8"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-400.svg"
-              alt="Workflow logo"
-            />
+            <div
+              class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 webtitle"
+            >
+              <a class="text-3xl font-bold leading-tight text-gray-900" href="#">
+                Who else but me?
+              </a>
+            </div>
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline md:items-center">
-              <button href="#" class="btn"><homeicon /></button>
               <button href="#" class="btn"><projecticon />Projects</button>
               <button href="#" class="btn"><cameraicon />Photos</button>
               <button href="#" class="btn"><meicon />About Me</button>
@@ -41,6 +42,8 @@ export default {
 
 <style>
 .btn {
+  font-family: "quicksand";
+  font-weight: "200";
   @apply ml-4 px-3 py-2 rounded font-medium text-darkest inline-flex items-center;
 }
 .btn:hover {
@@ -54,5 +57,10 @@ export default {
 }
 .btn-blue:hover {
   @apply bg-blue-700;
+}
+.webtitle {
+  font-family: "quicksand";
+  font-weight: 700;
+  font-size: 40;
 }
 </style>

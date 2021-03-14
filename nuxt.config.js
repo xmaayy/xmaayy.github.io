@@ -11,7 +11,12 @@ export default {
   head: {
     title: 'A Random Blog', // Other meta information
     script: [
-      { "data-domain": "whoelsebut.me", src: "https://plausible.io/js/plausible.js", defer: true}
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      }
     ]
   },
   target: 'static'
