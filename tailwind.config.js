@@ -11,8 +11,11 @@ module.exports = {
         dark: "#507DBC", // Glacious
         medium: "#A1C6EA", // Baby Blue Eyes
         light: "#BBD1EA", // Beau Blue
-        lightest: "#F3F6F7" // Cultured
+        lightest: "#F7F7F7" // Cultured
       }
-    }
+    },
+    container: {
+      center: true,
+    },
   }
 }

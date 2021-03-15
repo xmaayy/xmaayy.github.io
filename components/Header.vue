@@ -44,16 +44,16 @@ export default {
 .btn {
   font-family: "quicksand";
   font-weight: "200";
-  @apply ml-4 px-3 py-2 rounded font-medium text-darkest inline-flex items-center;
+  @apply ml-4 px-3 py-2 rounded font-medium text-darkest inline-flex items-center shadow;
 }
 .btn:hover {
-  @apply text-medium;
+  @apply text-medium shadow-xl;
 }
 .btn:focus {
-  @apply outline-none;
+  @apply outline-none shadow-2xl;
 }
 .btn-blue {
-  @apply bg-blue-500 text-white;
+  @apply bg-blue-500 text-white ;
 }
 .btn-blue:hover {
   @apply bg-blue-700;
