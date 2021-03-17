@@ -7,7 +7,7 @@
             <div
               class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 webtitle"
             >
-              <a class="text-3xl font-bold leading-tight text-gray-900" href="#">
+              <a class="text-3xl font-bold leading-tight text-gray-900" href="/">
                 Who else but me?
               </a>
             </div>
@@ -16,7 +16,7 @@
             <div class="ml-10 flex items-baseline md:items-center">
               <button href="#" class="btn"><projecticon />Projects</button>
               <button href="#" class="btn"><cameraicon />Photos</button>
-              <button href="#" class="btn"><meicon />About Me</button>
+              <a href="/about-me"><button  class="btn"><meicon />About Me</button></a>
             </div>
           </div>
         </div>
