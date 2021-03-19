@@ -5,7 +5,7 @@
       <header class="bg-white shadow"></header>
       <main>
         <figure
-          class="blogpost blogfig container mx-auto bg-lightest rounded-xl p-8 m-4 l-4"
+          class="blogpost blogfig container mx-auto  rounded-xl p-8 m-4 l-4"
         >
           <a href="#">
             <img
@@ -58,6 +58,6 @@ export default {
   @apply shadow;
 }
 .blogpost:hover {
-  @apply shadow-2xl;
+  @apply shadow-xl;
 }
 </style>

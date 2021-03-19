@@ -15,7 +15,7 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline md:items-center">
               <button href="#" class="btn"><projecticon />Projects</button>
-              <button href="#" class="btn"><cameraicon />Photos</button>
+              <a href="/photos">  <button  class="btn"><cameraicon />Photos</button></a>
               <a href="/about-me"><button  class="btn"><meicon />About Me</button></a>
             </div>
           </div>

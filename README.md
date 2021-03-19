@@ -7,3 +7,6 @@ https://iconscout.com/unicons/explore/line
 
 ### Cool SVG Backgrounds
 https://app.haikei.app/
+
+### Time spent in radar? 
+https://www.chartjs.org/docs/latest/charts/radar.html
