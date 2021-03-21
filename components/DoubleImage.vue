@@ -1,31 +1,34 @@
 <template>
-  <div :id=photoName onClick="loadImage(this.id)">
-    <a class="lightbox" :href="`#${photoName}-fullscreen`">
-      <img :src=smallImageLink />
-    </a>
-    <div class="lightbox-target" :id="`${photoName}-fullscreen`">
-      <img
-        :id="`${photoName}-child`"
-        class="lazy_image"
-        :data-url=bigImageLink
-        :alt=altText
-      />
-      <a class="lightbox-close" href="#"></a>
-      <div>hello!</div>
+  <div class="flex justify-center flex-wrap" style="padding-bottom: 20px">
+    <div
+      class="w-2/3 shadow-lg justify-center image-entry webtitle"
+      :id="photoName"
+      onClick="loadImage(this.id)"
+    >
+      {{imageTitle}}
+      <a class="lightbox" :href="`#${photoName}-fullscreen`">
+        <img :src="smallImageLink" />
+      </a>
+      <div class="lightbox-target top-0 left-0" :id="`${photoName}-fullscreen`">
+        <img
+          :id="`${photoName}-child`"
+          class="lazy_image"
+          :data-url="bigImageLink"
+          :alt="altText"
+        />
+        <a class="lightbox-close" href="#"></a>
+      </div>
+      <script src="lazy_image.js" />
     </div>
-    <script src="lazy_image.js" />
   </div>
 </template>
 
 <script>
 export default {
   data: () => ({}),
-  mounted:() => {
-  },
-  props: ["photoName", "smallImageLink", "bigImageLink", "altText"],
-  methods: {
-    
-  },
+  mounted: () => {},
+  props: ["photoName", "smallImageLink", "bigImageLink", "altText", "imageTitle"],
+  methods: {},
 };
 </script>
 
@@ -39,8 +42,20 @@ html {
   text-align: center;
 }
 
-/* Styles the thumbnail */
+.webtitle {
+  font-family: "quicksand";
+  font-weight: 700;
+  font-size: 24pt;
+}
 
+.image-entry {
+  font-family: "quicksand";
+}
+
+.image-entry:hover {
+  @apply shadow-xl;
+}
+/* Styles the thumbnail */
 a.lightbox img {
   height: 150px;
   border: 3px solid white;
@@ -49,9 +64,8 @@ a.lightbox img {
 }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
-
 .lightbox-target {
-  position: fixed;
+  position: absolute;
   top: -100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);

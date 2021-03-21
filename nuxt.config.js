@@ -11,7 +11,9 @@ export default {
   head: {
     title: 'A Random Blog', // Other meta information
     script: [
-      {src:"https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"}
+      {src:"https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"},
+      {src:"flickity.pkgd.min.js"}
+    
     ],
     link: [
       {
@@ -21,6 +23,10 @@ export default {
       {
         rel: "stylesheet",
         href: "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+      },
+      {
+        rel: "stylesheet",
+        href: "flickity.min.css"
       }
     ]
   },
