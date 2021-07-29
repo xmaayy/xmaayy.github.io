@@ -22,19 +22,54 @@
           </div>
         </div>
         <hr />
-        <div class="justify-center" style="padding-top: 15px padding-bottom: 20px">
+        <div
+          class="justify-center"
+          style="padding-top: 15px padding-bottom: 20px"
+        >
+          <div class="subtitle text-center">Strava</div>
+          <div class=" flex w-2/3 shadow-lg rounded-lg">
+            <iframe
+              height="454"
+              width="300"
+              frameborder="0"
+              allowtransparency="true"
+              scrolling="no"
+              src="https://www.strava.com/athletes/43196339/latest-rides/df6eae77f56b9e924b12bac64b6a4f3a66071441"
+            ></iframe>
+            <iframe
+              height="160"
+              width="300"
+              frameborder="0"
+              allowtransparency="true"
+              scrolling="no"
+              src="https://www.strava.com/athletes/43196339/activity-summary/df6eae77f56b9e924b12bac64b6a4f3a66071441"
+            ></iframe>
+          </div>
+        </div>
+        <div
+          class="justify-center"
+          style="padding-top: 15px padding-bottom: 20px"
+        >
           <div class="subtitle text-center">Days Spent Coding</div>
           <div class="calendar w-2/3 shadow-lg rounded-lg">
             <!-- Loading stuff -->
             Please hold.
           </div>
         </div>
-        <hr/>
-        <div class="justify-center text-center subtitle" style="padding-top: 15px">Youtube Watchtime</div>
-        <div class="justify-center text-center ramblings" style="padding-top: 15px">
-            Unfortunately you're gonna have to trust me on this one because as far as I know
-            there is no way to fetch your youtube watch time other than look on a phone
-            app.
+        <hr />
+        <div
+          class="justify-center text-center subtitle"
+          style="padding-top: 15px"
+        >
+          Youtube Watchtime
+        </div>
+        <div
+          class="justify-center text-center ramblings"
+          style="padding-top: 15px"
+        >
+          Unfortunately you're gonna have to trust me on this one because as far
+          as I know there is no way to fetch your youtube watch time other than
+          look on a phone app.
         </div>
         <div class="flex justify-center" style="padding-top: 15px">
           <div class="w-2/3 shadow-lg rounded-lg justify-center">
@@ -77,7 +112,7 @@ export default {
   font-weight: "600";
   font-size: 20px;
 }
-canvas{
-    margin: 0 auto;
+canvas {
+  margin: 0 auto;
 }
 </style>
