@@ -27,7 +27,6 @@
           </a>
         </figure>
       </main>
-      <script async defer data-domain="whoelsebut.me" src="https://server.whoelsebut.me/js/plausible.js"></script>
     </div>
   </div>
 </template>
