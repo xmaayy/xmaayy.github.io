@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <script
@@ -50,6 +51,7 @@
 import Header from "../components/Header";
 
 export default {
+  // https://nuxtjs.org/blog/creating-blog-with-nuxt-content#default-injected-variables
   data() {
     return {
       isOpen: false,

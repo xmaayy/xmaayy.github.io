@@ -1,5 +1,5 @@
 export default {
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -22,10 +22,6 @@ export default {
         rel: "stylesheet",
         href: "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
       },
-      {
-        rel: "stylesheet",
-        href: "flickity.min.css"
-      }
     ]
   },
   target: 'static'
