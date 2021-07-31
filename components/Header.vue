@@ -15,8 +15,8 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline md:items-center">
               <a href="/models"> <button class="btn"><projecticon />Models</button></a>
-              <a href="/photos">  <button  class="btn"><cameraicon />Photos</button></a>
-              <a href="/about-me"><button  class="btn"><meicon />About Me</button></a>
+              <a href="/photos"><button  class="btn"><cameraicon />Photos</button></a>
+              <a href="/metrics"><button  class="btn"><meicon />Site Metrics</button></a>
             </div>
           </div>
         </div>
