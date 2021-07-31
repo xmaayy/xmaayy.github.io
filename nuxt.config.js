@@ -11,7 +11,6 @@ export default {
   head: {
     title: 'A Random Blog', // Other meta information
     script: [
-      {src:"https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"},
       {"data-domain":"whoelsebut.me", src:"https://server.whoelsebut.me/js/plausible.js", async: true, defer:true}
     ],
     link: [
