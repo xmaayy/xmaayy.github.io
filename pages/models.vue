@@ -25,7 +25,8 @@
                   </p>
                 </blockquote>
                 <figcaption class="font-medium">
-                  <div class="text-cyan-600">This actually has an animation. I think theres a bug in the model-viewer package thats not playing it because it works in a lot of other GLTF viewers. If you want to see it, download the file and go to https://gltf-viewer.donmccurdy.com/</div>
+                  <div class="text-cyan-600">
+                  My first foray into animating models. I created the model in a T pose so it made the shoulders really wonky in the walking animation. I think I need to add a bunch more polygons around joints in future models. </div>
                   <div class="text-cyan-600">Xander May</div>
                   <div cla> 08/01/2021 </div>
                 </figcaption>
