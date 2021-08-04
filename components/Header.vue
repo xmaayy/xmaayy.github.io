@@ -5,14 +5,14 @@
         <div class="flex items-center">
           <div class="flex-shrink-0">
             <div
-              class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 webtitle"
+              class="max-w-7xl mx-auto flex webtitle"
             >
               <a class="text-3xl font-bold leading-tight text-gray-900" href="/">
                 Who else but me?
               </a>
             </div>
           </div>
-          <div class="hidden md:block">
+          <div class="">
             <div class="ml-10 flex items-baseline md:items-center">
               <a href="/models"> <button class="btn"><projecticon />Models</button></a>
               <a href="/photos"><button  class="btn"><cameraicon />Photos</button></a>
