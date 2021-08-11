@@ -1,5 +1,5 @@
 export default {
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxtjs/vuetify'],
   theme: {
     colors: {
       transparent: 'transparent',
