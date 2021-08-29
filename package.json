@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "nuxt": "^2.15.2"
+    "nuxt": "^2.15.2",
+    "vue-silentbox": "^2.4.5"
   }
 }

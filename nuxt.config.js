@@ -19,9 +19,13 @@ export default {
         href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       },
       {
-        rel: "stylesheet",
-        href: "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+        rel: 'stylesheet',
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap"
       },
+      {
+        rel: 'stylesheet',
+        href: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      }
     ]
   },
   target: 'static'

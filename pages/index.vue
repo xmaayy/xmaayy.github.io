@@ -4,28 +4,16 @@
       <the-header></the-header>
       <header class="bg-white shadow"></header>
       <main>
-        <figure
-          class="blogpost blogfig container mx-auto  rounded-xl p-8 m-4 l-4"
-        >
-          <a href="#">
-            <img
-              class="w-full h-64 object-cover rounded-lg mx-auto"
-              src="/coffee.jpg"
-              alt=""
-            />
-            <div class="pt-6 space-y-4">
-              <blockquote>
-                <p class="text-lg font-semibold">
-                  "A test blog post to see what this would really look like"
-                </p>
-              </blockquote>
-              <figcaption class="font-medium">
-                <div class="text-cyan-600">Xander May</div>
-                <div cla>5 min read</div>
-              </figcaption>
-            </div>
-          </a>
-        </figure>
+        <div v-for="(article, articleIdx) of articles" :key="articleIdx">\
+          <a v-bind:href="'/blog/'+article.slug"> 
+          <post-preview
+            :title="article.title"
+            :description="article.description"
+            :cover-alt="article.preview_alt"
+            :cover-image="article.preview_img"
+          />
+        </a>
+        </div>
       </main>
     </div>
   </div>
@@ -33,31 +21,37 @@
 
 <script>
 import Header from "../components/Header";
+import PostPreview from "../components/PostPreview.vue";
 export default {
-  data() {
+  async asyncData({ $content, params }) {
+    const post_list = await $content("blog-posts")
+      .sortBy("createdAt", "asc")
+      .fetch();
     return {
-      isOpen: false,
+      post_list,
     };
   },
+  data() {
+    return {
+      articles: [],
+    };
+  },
+  updated() {},
+  mounted() {
+    this.articles = this.post_list;
+  },
   methods: {
-    toggle() {
-      this.isOpen = !this.isOpen;
-    },
+    toggle() {},
   },
   components: {
     "the-header": Header,
+    "post-preview": PostPreview,
   },
 };
 </script>
 
 <style>
 .blogfig {
-  font-family: "quicksand";
-}
-.blogpost {
-  @apply shadow;
-}
-.blogpost:hover {
-  @apply shadow-xl;
+  font-family: "noto sans jp";
 }
 </style>
